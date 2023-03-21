@@ -1,0 +1,44 @@
+body{
+    background-image: url("bg.jpg");
+    background-size: cover;
+}
+#header-image{
+    width: 100%;
+    height: 300px;
+    margin: 0px;
+}
+.cards{
+    
+    border: 0px solid black;
+    padding: 70px 30px;
+    margin: 40px;
+    border-radius: 35px;
+    justify-content: space-around;
+    background-color: aqua;
+    
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    
+}
+#heading{
+    align-items: center;
+    text-align: center;
+}
+.profile{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+#guide{
+    border-radius: 40px;
+    background-color: rosybrown;
+    height: 200px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
